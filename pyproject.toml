@@ -21,8 +21,9 @@ classifiers = [
   "Programming Language :: Python :: 3 :: Only",
 ]
 dependencies = [
-  'tt_tools_common~=1.6.0',
+  'tt_tools_common @ git+https://github.com/broskoTT/tt-tools-common.git@brosko/support_umd',
   'pyluwen~=0.8.0',
+  'tt_umd @ git+https://github.com/tenstorrent/tt-umd.git@brosko/more_py_api_again',
   'elasticsearch>=8.11.0',
   'pydantic>=1.2',
   'networkx>=3.1',
